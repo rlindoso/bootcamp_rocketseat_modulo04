@@ -1,8 +1,10 @@
 import React from 'react'
 import './App.css';
 
+import profile from './assets/zoro.jpg';
+
 function App() {
-    return <h1>Hello Rafael</h1>
+    return <img src={profile} />
 }
 
 export default App;
